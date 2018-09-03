@@ -1,0 +1,25 @@
+style {
+
+    .heading {
+      color: green;
+    }
+    p{
+      color:blue;
+    }
+
+}
+
+<site-layout>
+  <@title>Marko Start</@title>
+  <@content>
+  
+    <h3 class="heading"> My Name is sana </h3>
+    <p>first paragraph</p>
+    <div>
+      Hello ${input.name}!
+    </div>
+    
+    <marquee bgcolor="grey" behaviour="slide" direction="left" scrollamount="3" width="50%" height="50px" >scroll text</marquee>
+    <div class="my-class another-class" style="border: 1px solid #000; padding: 5px; margin 5px;">Hello Marko</div>
+  </@content>
+</site-layout>
