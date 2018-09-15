@@ -1,25 +1,21 @@
 style {
 
-    .heading {
-      color: green;
-    }
-    p{
-      color:blue;
-    }
 
 }
 
 <site-layout>
-  <@title>Marko Start</@title>
+  <@title>Bootstrap</@title>
   <@content>
-  
-    <h3 class="heading"> My Name is sana </h3>
-    <p>first paragraph</p>
-    <div>
-      Hello ${input.name}!
+
+    <div class="container-fluid">
+
+
+      <h1>My First Bootstrap Page</h1>
+      <p>This part is inside a .container class.</p>
+      <p>The .container class provides a responsive fixed width container.</p>
+
+      
     </div>
-    
-    <marquee bgcolor="grey" behaviour="slide" direction="left" scrollamount="3" width="50%" height="50px" >scroll text</marquee>
-    <div class="my-class another-class" style="border: 1px solid #000; padding: 5px; margin 5px;">Hello Marko</div>
+
   </@content>
 </site-layout>
