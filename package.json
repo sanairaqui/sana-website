@@ -11,6 +11,7 @@
     "eslint": "^4.2.0",
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-prettier": "^2.1.2",
+    "ncp": "^2.0.0",
     "prettier": "^1.5.2"
   },
   "dependencies": {
@@ -23,7 +24,8 @@
     "serve-static": "NODE_ENV=production marko-starter serve-static",
     "lint": "eslint src/",
     "test": "npm run lint",
-    "prettier": "prettier src/**/*.{js,css,less} *.js --write"
+    "prettier": "prettier src/**/*.{js,css,less} *.js --write",
+    "publish": "node publish.js"
   },
   "eslintConfig": {
     "extends": [
