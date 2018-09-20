@@ -10,15 +10,7 @@ module.exports = require("marko-starter").projectConfig({
     minifyJS: isProduction,
     urlPrefix: isProduction ? "/sana-website" : "/static",
     plugins: [
-      'lasso-marko',
-      {
-        "plugin": "lasso-sass",
-        "config":{
-            "includePaths":["./node_modules"],
-            "indentedSyntax":true
-            
-        }
-      }
+      
 
     ]
   }
